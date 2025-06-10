@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<title>小米首爾5日自由行</title>
+<style>
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #0e1a2b; color: #f0f0f0; }
+header { background: linear-gradient(to right, #1c3b70, #3b5998); color: white; padding: 40px 20px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.3); position: sticky; top: 0; z-index: 10; }
+header h1 { margin: 0; font-size: 2.8em; }
+header p { margin: 10px 0 0; font-size: 1.2em; }
+nav { background: #162447; display: flex; justify-content: center; flex-wrap: wrap; padding: 10px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2); position: sticky; top: 80px; z-index: 9; }
+nav button { margin: 5px; padding: 10px 15px; border: none; background: #324a8c; border-radius: 5px; cursor: pointer; transition: all 0.3s ease; color: #f0f0f0; }
+nav button:hover { background: #3b5998; }
+nav button.active { background: #6a89cc; color: white; font-weight: bold; }
+section { display: none; padding: 20px; max-width: 900px; margin: auto; }
+section.active { display: block; animation: fadeIn 0.5s ease; }
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+.itinerary-day { border-left: 5px solid #6a89cc; margin: 15px 0; padding-left: 15px; font-size: 1.1em; background: #14213d; padding: 10px; border-radius: 5px; }
+.timeline { margin: 15px 0; }
+.timeline h4 { margin: 10px 0; color: #6a89cc; }
+.timeline ul { padding-left: 20px; }
+.checklist { background: #1f2a44; padding: 20px; border-radius: 8px; max-width: 600px; margin: 20px auto; }
+.checklist label { display: block; margin: 10px 0; cursor: pointer; font-size: 1.1em; }
+.solo-tips { background: #1f2a44; padding: 15px; border-radius: 8px; margin: 20px auto; max-width: 900px; }
+.solo-tips h3 { color: #6a89cc; }
+.day-img { width: 100%; height: 300px; object-fit: cover; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.5); }
+</style>
+</head>
+<body>
+<header>
+<h1>小米首爾5日自由行</h1>
+<p>酷航 TR896 出發 6/12 17:40 ／ 回程 6/16 22:35</p>
+</header>
+<nav>
+<button class="active" data-target="day1">Day 1</button>
+<button data-target="day2">Day 2</button>
+<button data-target="day3">Day 3</button>
+<button data-target="day4">Day 4</button>
+<button data-target="day5">Day 5</button>
+<button data-target="checklist">📝 出發前 Check List</button>
+<button data-target="tips">⭐ 獨旅 Tips</button>
+</nav>
+
+<section id="day1" class="active">
+<h2>仁川機場 + 弘大夜逛</h2>
+<img src="https://source.unsplash.com/featured/?Seoul,Korea,day1" class="day-img" alt="仁川機場 + 弘大夜逛" />
+<div class="itinerary-day">👉 主要行程建議活動</div>
+<div class="transport">交通建議：仁川機場 → 弘大 (AREX快線 + 地鐵)</div>
+<div class="map"><a href="https://goo.gl/maps/XjbnJmBndpB2" target="_blank">查看地圖</a></div>
+<div class="timeline"><h4>🌞 早上行程</h4><ul><li>仁川機場入境 → 購買交通卡 / SIM卡</li><li>搭AREX快線前往弘大</li></ul></div><div class="timeline"><h4>🍴 午後行程</h4><ul><li>Trick Eye 3D博物館</li><li>弘大主街 → chuu / 66girls / STYLENANDA</li><li>弘大 ALAND / Kakao Friends 旗艦店</li></ul></div><div class="timeline"><h4>🌙 晚上行程</h4><ul><li>弘大夜市逛街</li><li>SPA / 美容護膚體驗</li></ul></div></section>
+<section id="day2" class="">
+<h2>聖水洞文創 & 明洞夜市</h2>
+<img src="https://source.unsplash.com/featured/?Seoul,Korea,day2" class="day-img" alt="聖水洞文創 & 明洞夜市" />
+<div class="itinerary-day">👉 主要行程建議活動</div>
+<div class="transport">交通建議：明洞站 4號線 → 2號線 聖水站</div>
+<div class="map"><a href="https://goo.gl/maps/KuTccSyWtrp" target="_blank">查看地圖</a></div>
+<div class="timeline"><h4>🌞 早上行程</h4><ul><li>ZAPANGI 打卡牆</li><li>Cafe Onion</li></ul></div><div class="timeline"><h4>🍴 午後行程</h4><ul><li>聖水甜點街</li><li>Gentle Monster 旗艦店</li><li>COS / MUSINSA Standard / 韓潮流品牌</li></ul></div><div class="timeline"><h4>🌙 晚上行程</h4><ul><li>回明洞夜市 → Innisfree / Laneige / 3CE / Clio / OLIVE YOUNG flagship 店</li></ul></div></section>
+<section id="day3" class="">
+<h2>江南逛街 + 醫美 + 夜景</h2>
+<img src="https://source.unsplash.com/featured/?Seoul,Korea,day3" class="day-img" alt="江南逛街 + 醫美 + 夜景" />
+<div class="itinerary-day">👉 主要行程建議活動</div>
+<div class="transport">交通建議：明洞站 → 江南站</div>
+<div class="map"><a href="https://goo.gl/maps/ohDViH4jytF2" target="_blank">查看地圖</a></div>
+<div class="timeline"><h4>🌞 早上行程</h4><ul><li>COEX Mall → ZARA / H&M / SPAO / MLB / 韓系品牌</li><li>星空圖書館打卡</li></ul></div><div class="timeline"><h4>🍴 午後行程</h4><ul><li>Apgujeong Rodeo 街 → 設計師品牌 / 潮流服飾</li><li>Garosu-gil 林蔭大道 → MIXXO / 8Seconds / Ader Error</li></ul></div><div class="timeline"><h4>🌙 晚上行程</h4><ul><li>江南醫美街護膚行程</li><li>漢江夜景散步</li></ul></div></section>
+<section id="day4" class="">
+<h2>南大門 / 北村韓屋 / 猛男秀</h2>
+<img src="https://source.unsplash.com/featured/?Seoul,Korea,day4" class="day-img" alt="南大門 / 北村韓屋 / 猛男秀" />
+<div class="itinerary-day">👉 主要行程建議活動</div>
+<div class="transport">交通建議：明洞 → 南大門 → 北村 → 東大門</div>
+<div class="map"><a href="https://goo.gl/maps/cH9Pc5RJShx" target="_blank">查看地圖</a></div>
+<div class="timeline"><h4>🌞 早上行程</h4><ul><li>南大門市場早餐 → 小商品 / 配件 / 韓服</li></ul></div><div class="timeline"><h4>🍴 午後行程</h4><ul><li>韓服體驗 → 北村韓屋村</li><li>景福宮 → 傳統文化體驗</li></ul></div><div class="timeline"><h4>🌙 晚上行程</h4><ul><li>DDP 東大門設計廣場</li><li>DOOTA Mall / LOTTE FITIN → K-Fashion / 年輕設計品牌</li><li>猛男秀 18:00 + DDP 夜市</li></ul></div></section>
+<section id="day5" class="">
+<h2>明洞購物 + 回台</h2>
+<img src="https://source.unsplash.com/featured/?Seoul,Korea,day5" class="day-img" alt="明洞購物 + 回台" />
+<div class="itinerary-day">👉 主要行程建議活動</div>
+<div class="transport">交通建議：明洞站 → 機場快線</div>
+<div class="map"><a href="https://goo.gl/maps/wP4pZ6rXJYo" target="_blank">查看地圖</a></div>
+<div class="timeline"><h4>🌞 早上行程</h4><ul><li>明洞購物街 → 韓系服飾 / 美妝 / 配件店</li></ul></div><div class="timeline"><h4>🍴 午後行程</h4><ul><li>明洞教堂</li><li>Olive Young 採購</li></ul></div><div class="timeline"><h4>🌙 晚上行程</h4><ul><li>悠閒咖啡廳</li><li>搭 AREX 回機場</li></ul></div></section>
+<section id="checklist">
+<h2 style="text-align:center; color:#6a89cc;">出發前 Check List ✈️</h2>
+<div class="checklist">
+<label><input type="checkbox"> 護照</label>
+<label><input type="checkbox"> 現金 / 信用卡</label>
+<label><input type="checkbox"> 防曬 / 保養品</label>
+<label><input type="checkbox"> 衣服配件</label>
+<label><input type="checkbox"> 變壓器</label>
+<label><input type="checkbox"> APP (Naver Map / KakaoMap / Papago)</label>
+<label><input type="checkbox"> 醫美預約確認</label>
+<label><input type="checkbox"> 猛男秀票確認</label>
+<label><input type="checkbox"> 明洞飯店訂房確認</label>
+<label><input type="checkbox"> 仁川飯店訂房確認</label>
+<label><input type="checkbox"> 機場快線票 / T-money 交通卡</label>
+<label><input type="checkbox"> 韓國 SIM 卡 or eSIM 設定好</label>
+</div>
+</section>
+
+<section id="tips">
+<h2 style="text-align:center; color:#6a89cc;">⭐ 首爾獨旅 Tips</h2>
+<div class="solo-tips">
+<h3>小提醒</h3>
+<ul>
+<li>選飯店交通便利，建議住 4 號線 / 2 號線沿線。</li>
+<li>晚上搭車注意避開末班車時段。</li>
+<li>隨身攜帶 10,000 韓元以下小鈔。</li>
+<li>拍照可攜帶自拍棒或請友善遊客協助。</li>
+<li>街邊小吃、夜市多數安全，建議適量體驗。</li>
+<li>不建議太晚獨自深夜探險巷弄。</li>
+<li>醫美／SPA 預約建議 2 天前完成。</li>
+<li>獨旅行程建議交錯「人多＋人少」地區，避免過度疲累。</li>
+</ul>
+</div>
+</section>
+
+<script>
+const buttons = document.querySelectorAll('nav button');
+buttons.forEach(btn => {
+  btn.onclick = () => {
+    document.querySelector('nav button.active').classList.remove('active');
+    btn.classList.add('active');
+    document.querySelector('section.active').classList.remove('active');
+    document.getElementById(btn.dataset.target).classList.add('active');
+  }
+});
+// LocalStorage CheckList 記憶
+document.querySelectorAll('.checklist input[type="checkbox"]').forEach((checkbox, index) => {
+  const saved = localStorage.getItem('checklist_item_' + index);
+  if (saved === 'true') checkbox.checked = true;
+  checkbox.addEventListener('change', () => {
+    localStorage.setItem('checklist_item_' + index, checkbox.checked);
+  });
+});
+</script>
+</body>
+</html>
